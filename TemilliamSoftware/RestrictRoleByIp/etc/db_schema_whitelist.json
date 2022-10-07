@@ -1,0 +1,7 @@
+{
+    "authorization_role": {
+        "column": {
+            "ip_addresses": true
+        }
+    }
+}

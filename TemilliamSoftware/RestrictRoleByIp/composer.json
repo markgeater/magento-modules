@@ -1,0 +1,21 @@
+{
+    "name": "temilliam-software/restrict-role-by-ip",
+    "description": "Restrict access to the Magento backend for each role by IP address.",
+    "type": "magento2-module",
+    "version": "1.0.1",
+    "require": {
+        "php": "~7||~8",
+        "magento/framework": "~102||~103",
+        "magento/module-authorization": "~100",
+        "magento/module-backend": "~101||~102"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "TemilliamSoftware\\RestrictRoleByIp\\": ""
+        }
+    }
+}
+
